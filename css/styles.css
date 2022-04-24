@@ -33,7 +33,7 @@ body {
 .island_image, .kowloon_image, .lantau_image {
     max-width: 100%;
     max-height: 250px;
-    object-fit: contain;
+    object-fit: fill;
     border-width: 3px;
     border-color: black;
     border-style: solid;
@@ -59,6 +59,11 @@ body {
     padding-bottom: 0px;
     background-color: white;
 
+
+}
+
+/* make sure to separate images from texts, solved errors */
+.textroutelinks {
     font-size: 22px;
     font-weight:500;
     text-align: center;
