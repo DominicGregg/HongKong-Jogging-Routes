@@ -70,4 +70,21 @@ body {
 }
 
 
+/* has to be in this order */
+a:link,
+a:visited {
+    color: blue;
+}
+
+a:hover,
+a:focus {
+    color: green;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
 
